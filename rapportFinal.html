@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html  lang="fr"  dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SAÉ 2.03 - Rapport final</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/css/uikit.gradient.css">
+
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/diversen/pandoc-uikit@master/style.css">
+        <link href="https://vjs.zencdn.net/5.4.4/video-js.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <!-- <script src="uikit.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/gh/diversen/pandoc-uikit@master/uikit.js"></script>
+        <!-- <script src="scripts.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/gh/diversen/pandoc-uikit@master/scripts.js"></script>
+        <!-- <script src="jquery.sticky-kit.js "></script> -->
+        <script src="https://cdn.jsdelivr.net/gh/diversen/pandoc-uikit@master/jquery.sticky-kit.js"></script>
+
+        <meta name="generator" content="pandoc-uikit" />
+                <meta name="author" content="ZAVADSKIYI Mark" />
+                <meta name="author" content="ZHENG Angèl" />
+                <meta name="author" content="LAVOGIEZ Baptiste" />
+                <meta name="author" content="DEMARET Thibaut" />
+                        <title>SAÉ 2.03 - Rapport final</title>
+        <style type="text/css">code{white-space: pre;}</style>
+                        <style type="text/css">
+            html { -webkit-text-size-adjust: 100%; }
+            pre > code.sourceCode { white-space: pre; position: relative; }
+            pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+            pre > code.sourceCode > span:empty { height: 1.2em; }
+            .sourceCode { overflow: visible; }
+            code.sourceCode > span { color: inherit; text-decoration: inherit; }
+            div.sourceCode { margin: 1em 0; }
+            pre.sourceCode { margin: 0; }
+            @media screen {
+            div.sourceCode { overflow: auto; }
+            }
+            @media print {
+            pre > code.sourceCode { white-space: pre-wrap; }
+            pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+            }
+            pre.numberSource code
+              { counter-reset: source-line 0; }
+            pre.numberSource code > span
+              { position: relative; left: -4em; counter-increment: source-line; }
+            pre.numberSource code > span > a:first-child::before
+              { content: counter(source-line);
+                position: relative; left: -1em; text-align: right; vertical-align: baseline;
+                border: none; display: inline-block;
+                -webkit-touch-callout: none; -webkit-user-select: none;
+                -khtml-user-select: none; -moz-user-select: none;
+                -ms-user-select: none; user-select: none;
+                padding: 0 4px; width: 4em;
+              }
+            pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+            div.sourceCode
+              { color: #cccccc; background-color: #303030; }
+            @media screen {
+            pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+            }
+            code span.al { color: #ffcfaf; } /* Alert */
+            code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
+            code span.at { } /* Attribute */
+            code span.bn { color: #dca3a3; } /* BaseN */
+            code span.bu { } /* BuiltIn */
+            code span.cf { color: #f0dfaf; } /* ControlFlow */
+            code span.ch { color: #dca3a3; } /* Char */
+            code span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
+            code span.co { color: #7f9f7f; } /* Comment */
+            code span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
+            code span.do { color: #7f9f7f; } /* Documentation */
+            code span.dt { color: #dfdfbf; } /* DataType */
+            code span.dv { color: #dcdccc; } /* DecVal */
+            code span.er { color: #c3bf9f; } /* Error */
+            code span.ex { } /* Extension */
+            code span.fl { color: #c0bed1; } /* Float */
+            code span.fu { color: #efef8f; } /* Function */
+            code span.im { } /* Import */
+            code span.in { color: #7f9f7f; font-weight: bold; } /* Information */
+            code span.kw { color: #f0dfaf; } /* Keyword */
+            code span.op { color: #f0efd0; } /* Operator */
+            code span.ot { color: #efef8f; } /* Other */
+            code span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
+            code span.sc { color: #dca3a3; } /* SpecialChar */
+            code span.ss { color: #cc9393; } /* SpecialString */
+            code span.st { color: #cc9393; } /* String */
+            code span.va { } /* Variable */
+            code span.vs { color: #cc9393; } /* VerbatimString */
+            code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
+        </style>
+                                                          
+                 
+    </head>
+
+    <body>
+
+
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+
+                        <div class="uk-grid" data-uk-grid-margin>
+                <div class="uk-width-1-1">
+                    <h1 class="uk-heading-large">SAÉ 2.03 - Rapport
+final</h1>
+                                                            <p class="uk-text-large">ZAVADSKIYI
+Mark</p>
+                                        <p class="uk-text-large">ZHENG
+Angèl</p>
+                                        <p class="uk-text-large">LAVOGIEZ
+Baptiste</p>
+                                        <p class="uk-text-large">DEMARET
+Thibaut</p>
+                                    </div>
+            </div>
+            
+            <div class="uk-grid" data-uk-grid-margin >          
+                <div class="uk-width-medium-1-4">
+                    <div class="uk-overflow-container" data-uk-sticky="{top:25,media: 768}">
+                        <div class="uk-panel uk-panel-box menu-begin" >
+
+                                                        true
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-medium-3-4">
+
+                    
+<p><br />
+<br />
+<br />
+<br />
+<br />
+</p>
+<h1 id="rapport-final">Rapport final</h1>
+<h2 id="préface">Préface</h2>
+<p>Comme un l’est sur une journée ensoleillée, le format
+<strong>markdown</strong> sera le support de notre document. Ce rapport
+servira à démontrer la <strong>facilité</strong> de production d’un
+document <em>propre et professionnel</em> à travers diverses questions
+portant sur <strong>l’installation de services réseaux</strong>.</p>
+<hr />
+<h2 id="semaine-01-services-réseaux-automatisation">Semaine 01 :
+Services réseaux, automatisation</h2>
+<h3
+id="questions-1.-configuration-matérielle-dans-virtualbox">Question(s)
+1. Configuration matérielle dans VirtualBox</h3>
+<p>Ces questions porteront sur <em>Oracle VM VirtualBox</em>, un
+logiciel réputé pour ses fonctionnalités de machine virtuelle, soit un
+ordinateur à l’intérieur d’un ordinateur (pour faire simple).</p>
+<p><strong>Que signifie “64-bit” dans “Debian 64-bit” ?</strong></p>
+<blockquote>
+<p>Une <em>Debian</em> qualifiée de “64-bit” est optimisée/conçue pour
+fonctionner uniquement sur des processeurs utilisant une
+<strong>architecture</strong> 64 bits, où la <strong>taille</strong> des
+registres mémoire est de 64 bits. <a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</blockquote>
+<p><strong>Quelle est la configuration réseau utilisée par défaut
+?</strong></p>
+<blockquote>
+<p>VirtualBox est configuré par <strong>défaut</strong> en mode réseau
+<em>NAT</em> (<em>Network Address Translation</em>), ce qui signifie que
+la machine virtuelle accède à Internet via <strong>l’adresse IP</strong>
+de l’hôte, agissant comme un intermédiaire. <a href="#fn2"
+class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a><br />
+</p>
+</blockquote>
+<figure>
+<img src="./img/semaine01/questions1/question2.png"
+alt="Paramètres réseau de la Machine Virtuelle" />
+<figcaption aria-hidden="true">Paramètres réseau de la Machine
+Virtuelle</figcaption>
+</figure>
+<p><strong>Quel est le nom du fichier XML contenant la configuration de
+votre machine ?</strong></p>
+<blockquote>
+<p>Ce fichier est <em>“sae203.vbox”</em>.</p>
+</blockquote>
+<div class="info">
+<p>Le <strong>format</strong> <em>XML</em>, pour information, sert à
+saisir des informations de configuration basique (paramétrage)
+compréhensibles pour tous.</p>
+</div>
+<figure>
+<img src="./img/semaine01/questions1/question3.png"
+alt="Nom et apparition du fichier" />
+<figcaption aria-hidden="true">Nom et apparition du fichier</figcaption>
+</figure>
+<p><strong>Sauriez-vous modifier directement ce fichier pour mettre 2
+processeurs à votre machine ? Faites-le.</strong></p>
+<blockquote>
+<p>Dans la section <em>Hardware</em> puis <em>CPU</em>, modifier
+<em>count</em> à 2.</p>
+</blockquote>
+<div class="info">
+<p><strong>Note</strong> : Lorsqu’il n’y a aucun <em>CPU</em>
+(processeur), la variable count n’est pas mentionnée.</p>
+</div>
+<figure>
+<img src="./img/semaine01/questions1/question4.png"
+alt="Fichier configuration de la Machine Virtuelle" />
+<figcaption aria-hidden="true">Fichier configuration de la Machine
+Virtuelle</figcaption>
+</figure>
+<hr />
+<h3 id="questions-2.-installation-os-de-base">Question(s) 2.
+Installation OS de base<br />
+</h3>
+<p><strong>Qu’est-ce qu’un fichier iso bootable ?</strong></p>
+<blockquote>
+<p>Un fichier iso <em>bootable</em> est une image
+<strong>disque</strong> qui contient tous les fichiers nécessaires au
+démarrage d’un système. Il permet soit d’exécuter un <strong>système
+d’exploitation</strong> en mode “<em>Live</em>”, soit de procéder à son
+<strong>installation</strong>, comme ça a été fait pour Debian sur notre
+machine virtuelle.. <a href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></p>
+</blockquote>
+<p><strong>Qu’est-ce que MATE ? GNOME ?</strong></p>
+<blockquote>
+<p><em>MATE</em> et <em>GNOME</em> sont des interfaces graphiques (GUI)
+(aussi appelés interfaces, environnements de bureau) pour les systèmes
+GNU/Linux, <strong>facilitant</strong> l’utilisation du système via une
+interface visuelle. <a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></p>
+</blockquote>
+<div class="info">
+<p>Un <strong>serveur</strong> est en quelque sorte un
+ordinateur/système à la disposition d’autres ordinateurs/systèmes sur un
+réseau.</p>
+</div>
+<p><strong>Qu’est-ce qu’un serveur web ?</strong></p>
+<blockquote>
+<p>Un <strong>serveur</strong> <em>web</em> permet d’accueillir des
+pages web ou d’autres ressources accessibles via le réseau en utilisant
+le protocole HTTP. Le protocole HTTP régit les échanges entre un client
+Web et un serveur Web. <a href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a></p>
+</blockquote>
+<p><strong>Qu’est-ce qu’un serveur ssh ?</strong></p>
+<blockquote>
+<p>Un <strong>serveur</strong> <em>SSH</em> permet d’établir une
+connexion à distance sur un système <strong>via un terminal</strong>. <a
+href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a></p>
+</blockquote>
+<div class="info">
+<p>Un <em>terminal</em> est un <strong>espace de saisie de
+commandes</strong>.</p>
+</div>
+<p><strong>Qu’est-ce qu’un serveur mandataire ?</strong></p>
+<blockquote>
+<p>Un <strong>serveur</strong> <em>mandataire</em>, <em>souvent appelé
+proxy</em>, agit comme un intermédiaire pour la <strong>communication
+entre deux hôtes</strong>. <a href="#fn7" class="footnote-ref"
+id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+</blockquote>
+<hr />
+<h3 id="question-3.-sudo">Question 3. sudo</h3>
+<p><strong>Comment peut-on savoir à quels groupes appartient
+l’utilisateur user ?</strong></p>
+<blockquote>
+<p>La commande <code>groups</code> renvoie la liste des groupes où
+l’utilisateur appartient. Ici, on peut voir que <code>user</code> est
+désormais dans <code>sudo</code><a href="#fn8" class="footnote-ref"
+id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+</blockquote>
+<div class="info">
+<p><strong>Rappel</strong> : le groupe sudo représente le groupe des
+utilisateurs ayant accès au droit de
+<strong><em>super-utilisateur</em></strong>. Exemple:</p>
+</div>
+<figure>
+<img src="./img/semaine01/questions3/question1.png"
+alt="Extrait du terminal" />
+<figcaption aria-hidden="true">Extrait du terminal</figcaption>
+</figure>
+<hr />
+<h3 id="questions-4.-suppléments-invités">Question(s) 4. Suppléments
+invités</h3>
+<p><strong>Quelle est la version du noyau Linux utilisé par votre VM
+?</strong></p>
+<blockquote>
+<p>La commande <code>uname -v</code> renvoie des
+<strong>informations</strong> sur la version de notre noyau
+(<em>kernel</em>) utilisé par notre système, dans notre cas la version
+<strong>4.19.316-1 (2024-06-25)</strong>. <a href="#fn9"
+class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a><br />
+<img src="./img/semaine01/questions4/question1.png"
+alt="Commande dans le terminal" /></p>
+</blockquote>
+<p><strong>À quoi servent les suppléments invités ? Donner 2 principales
+raisons de les installer.</strong></p>
+<div class="box">
+<p>Les <em>suppléments invités</em> permettent une <strong>meilleure
+intégration</strong> entre la machine virtuelle et le système hôte,
+d’origine, avec par exemple <a href="#fn10" class="footnote-ref"
+id="fnref10" role="doc-noteref"><sup>10</sup></a> :</p>
+<ul>
+<li><p>Un <em>pilote d’affichage</em> avec <strong>accélération
+graphique</strong> pour améliorer les performances visuelles de la
+machine virtuelle.</p></li>
+<li><p>La modification de la lorsque l’on redimensionne la fenêtre du
+système de la machine virtuelle.</p></li>
+<li><p>Un glisser-déposer () pour facilement transférer des fichiers
+entre le système hôte et l’invité.</p></li>
+</ul>
+</div>
+<p><strong>À quoi sert la commande <code>mount</code> (dans notre cas de
+figure et dans le cas général) ?</strong></p>
+<blockquote>
+<p>La commande mount est utilisée pour associer un système de fichiers
+stocké sur un périphérique (comme un disque dur ou une image ISO) à un
+point d’accès dans l’arborescence des fichiers du système. Ici elle
+permet de monter l’image iso des <strong>suppléments invités</strong>
+VirtualBox, située dans le lecteur CD virtuel (mnt) pour une application
+des contenus. <a href="#fn11" class="footnote-ref" id="fnref11"
+role="doc-noteref"><sup>11</sup></a></p>
+</blockquote>
+<div class="warning">
+<p><strong>Attention</strong> : Cette commande est à utiliser avec
+précaution car elle peut occasionner des dommages aux disques.</p>
+</div>
+<hr />
+<h3 id="questions-4.2---quelques-questions">Question(s) 4.2 - Quelques
+questions:</h3>
+<p><strong>Qu’est-ce que le projet Debian ? D’où vient le nom Debian
+?</strong></p>
+<blockquote>
+<p>Le <strong>projet</strong> <em>Debian</em> est une
+<strong>association d’individus</strong> qui ont pour cause commune de
+créer un système d’exploitation libre. <em>Debian</em> est une
+distribution spécifique du système d’exploitation <em>Linux</em>
+disposant de nombreux paquets. Les <strong><em>systèmes
+Debian</em></strong> utilisent actuellement le <strong>noyau</strong>
+<em>Linux</em> ou le <strong>noyau</strong> <em>FreeBSD</em>. Le mot
+<em>Debian</em> est la contraction des noms Debra et Ian Murdock, qui
+ont fondé le projet. <a href="#fn12" class="footnote-ref" id="fnref12"
+role="doc-noteref"><sup>12</sup></a></p>
+</blockquote>
+<p><strong>Il existe 3 durées de prise en charge (<em>support</em>) de
+ces versions : la durée minimale, la durée en support long terme (LTS)
+et la durée en support long terme étendue (ELTS). Quelles sont les
+durées de ces prises en charge ?</strong></p>
+<blockquote>
+<p>La <strong>durée minimale</strong> de support d’une version est de 1
+an après la sortie de version suivante. La durée de support en long
+terme (<em>LTS</em>) est d’au moins 5 ans. La <strong>durée de
+support</strong> en long terme étendue étend la durée <em>LTS</em>
+d’encore 5 ans mais il ne s’agit pas d’un <strong>projet
+officiel</strong> de <em>Debian</em>. <a href="#fn13"
+class="footnote-ref" id="fnref13"
+role="doc-noteref"><sup>13</sup></a></p>
+</blockquote>
+<p><strong>Pendant combien de temps les mises à jour de sécurité
+seront-elles fournies ?</strong></p>
+<blockquote>
+<p>L’équipe <strong>en charge de la sécurité</strong> prend en charge la
+<strong>distribution stable</strong> pendant trois années après sa
+publication. <em>Debian</em> étant <strong>avant tout</strong> une
+<em>association d’individus et non une entreprise</em>, ses ressources
+sont <strong>précieuses</strong>, ainsi elle <strong>ne peut maintenir
+plus de trois versions</strong>. <a href="#fn14" class="footnote-ref"
+id="fnref14" role="doc-noteref"><sup>14</sup></a></p>
+</blockquote>
+<div class="warning">
+<p>Il est préférable d’utiliser une version à jour <em>en termes de
+sécurité</em>.</p>
+</div>
+<p><strong>Combien de versions au minimum sont activement maintenues par
+Debian ? Donnez leur nom générique (= les types de
+distribution).</strong></p>
+<div class="box">
+<p>Près de 3 versions courantes existent <strong>au minimum</strong>. Il
+y a :</p>
+<ul>
+<li><p><strong>La distribution stable</strong> contenant la dernière
+<strong>distribution</strong> officiellement sortie de
+<em>Debian</em>.</p></li>
+<li><p><strong>La distribution testing</strong> contenant les paquets
+qui n’ont <em>pas encore</em> été acceptés dans la distribution stable,
+mais qui sont en attente de l’être. Le principal avantage d’utiliser
+cette <strong>distribution</strong> est qu’elle contient des versions
+plus récentes des logiciels.</p></li>
+<li><p><strong>La distribution unstable</strong> est celle sur laquelle
+les activités de développement <em>se déroulent</em>. Généralement,
+cette <strong>distribution</strong> est utilisée par les développeurs.
+<a href="#fn15" class="footnote-ref" id="fnref15"
+role="doc-noteref"><sup>15</sup></a></p></li>
+</ul>
+</div>
+<p><strong>Chaque distribution majeure possède un nom de code différent.
+Par exemple, la version majeure actuelle (Debian 11) se nomme Bullseye.
+D’où viennent les noms de code donnés aux distributions ?</strong></p>
+<blockquote>
+<p>Les noms sont basés sur les <strong>personnages du film</strong>
+<strong><em>Toy Story</em></strong>. <a href="#fn16"
+class="footnote-ref" id="fnref16"
+role="doc-noteref"><sup>16</sup></a></p>
+</blockquote>
+<p><strong>L’un des atouts de Debian fut le nombre d’architectures
+(processeurs) officiellement prises en charge. Combien et lesquelles
+sont prises en charge par la version Bullseye ?</strong></p>
+<blockquote>
+<p>Près de 9 architectures différentes sont prises en charge par
+<em>Debian</em> <a href="#fn17" class="footnote-ref" id="fnref17"
+role="doc-noteref"><sup>17</sup></a></p>
+</blockquote>
+<ul>
+<li>Tableau les présentant :</li>
+</ul>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>amd64</em></td>
+<td>AMD64 PC 64 bits / Intel EM64T / x86-64</td>
+</tr>
+<tr>
+<td><em>i386</em></td>
+<td>i386 PC 32 bits / Intel IA-32</td>
+</tr>
+<tr>
+<td><em>ppc64el</em></td>
+<td>PowerPC 64 bits little-endian Motorola/IBM PowerPC</td>
+</tr>
+<tr>
+<td><em>s390x</em></td>
+<td>S390 64 bits IBM S/390</td>
+</tr>
+<tr>
+<td><em>armel</em></td>
+<td>ARM</td>
+</tr>
+<tr>
+<td><em>armhf</em></td>
+<td>Anciens matériels ARM et de plus récentes architectures 32 bits</td>
+</tr>
+<tr>
+<td><em>arm64</em></td>
+<td>Architectures ARM 64 bits Arch64</td>
+</tr>
+<tr>
+<td><em>mipsel</em></td>
+<td>MIPS 32 bits little-endian</td>
+</tr>
+<tr>
+<td><em>mips64el</em></td>
+<td>MIPS 64 bits little-endian</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Première version avec un nom de code.</strong></p>
+<blockquote>
+<p>Debian 1.1 (Buzz), est la première version, sortie le 17 juin 1996,
+et contenait 474 paquets. Debian a par la suite terminé sa transition
+vers le format binaire ELF et utilisait le noyau Linux 2.03. <a
+href="#fn18" class="footnote-ref" id="fnref18"
+role="doc-noteref"><sup>18</sup></a></p>
+</blockquote>
+<p><strong>Dernière version avec un nom de code.</strong></p>
+<blockquote>
+<p>Debian 14 “Forky” est la dernière version à ce jour, annoncée le 13
+octobre 2022. Peu d’informations sont encore données à son sujet, mais
+la version Trixie est actuellement en phase “testing”. <a href="#fn19"
+class="footnote-ref" id="fnref19"
+role="doc-noteref"><sup>19</sup></a></p>
+</blockquote>
+<hr />
+<h3 id="questions-5-ajustement-de-la-pré-configuration">Question(s) 5 :
+ajustement de la pré-configuration</h3>
+<p>Les principales réponses se trouveront dans le fichier
+<code>preseed-fr.cfg</code>.</p>
+<p>Il est déjà <strong>important</strong> de comprendre ce fichier. Il
+constitue la configuration de l’installation automatique de notre
+machine virtuelle, fonctionnant à la suite. Pour rendre ça simple, c’est
+comme si un humain entrait ces commandes, attendait la fin de chaque
+exécution, pour ensuite saisir la prochaine ; d’où l’intérêt d’une
+installation <strong>automatisée</strong> !</p>
+<div class="error">
+<p>Il sera <strong>normal</strong> de rencontrer des erreurs au cours de
+l’installation. Nous en avons rencontré beaucoup et nous les
+détaillerons !</p>
+</div>
+<p><strong>Modifier votre configuration (et recommencez l’installation)
+afin de :</strong></p>
+<ul>
+<li><strong>Ajouter le droit d’utiliser sudo à l’utilisateur
+standard.</strong><br />
+</li>
+</ul>
+<blockquote>
+<p>Ici, nous avons ajouté les droits <strong>sudo</strong> à
+<em>user</em>.<br />
+</p>
+</blockquote>
+<p><img src="./img/semaine01/questions5/question1.png"
+alt="Ajout des droits sudo à user" /><br />
+</p>
+<div class="info">
+<p>Cette méthode est relativement compliquée à trouver et nous a donc
+demandé un peu de recherche.</p>
+</div>
+<blockquote>
+<p>Pourquoi cette méthode ? Ici nous allons en quelque sorte venir
+<em>écrire</em> dans le fichier <em>sudoers</em> (gérant les droits des
+utilisateurs par le paquet sudo ; se référer à l’explication) <a
+href="#fn20" class="footnote-ref" id="fnref20"
+role="doc-noteref"><sup>20</sup></a> avec la commande echo, pour y
+inscrire les règles de droit concernant notre utilisateur user. Comme si
+un humain venait le faire, mais de façon <strong>automatique</strong>
+!</p>
+</blockquote>
+<div class="info">
+<p><strong>Pour rappel</strong>, les droits sudo sont les droits
+administrateur/super-utilisateur, permettant la saisie de commandes plus
+importantes sur le système.</p>
+</div>
+<ul>
+<li><strong>Installer l’environnement MATE.</strong><br />
+</li>
+</ul>
+<blockquote>
+<p>Ici, nous avons rajouté mate-desktop à la liste des méta-paquets que
+nous souhaitons rechercher.<br />
+</p>
+</blockquote>
+<p><img src="./img/semaine01/questions5/question2.png"
+alt="Inclusion de mate-desktop" /><br />
+</p>
+<ul>
+<li>Ajouter les paquets suivants :
+<ul>
+<li><code>sudo</code> : sinon la gestion sudo est inutile.</li>
+<li><code>git</code>, <code>sqlite3</code>, <code>curl</code> : pour
+préparer l’installation de la semaine prochaine.</li>
+<li><code>bash-completion</code> : va vous simplifier grandement
+l’écriture des lignes de commande.</li>
+<li><code>neofetch</code> : pas très utile mais c’est un classique dans
+son genre (essayez-le).</li>
+</ul></li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">d-i</span> pkgsel/include string sudo git sqlite3 curl bash-completion neofetch</span></code></pre></div>
+<p> </p>
+<blockquote>
+<p>Ici, il a suffi, après s’être documenté un peu sur l’instruction, de
+rajouter les paquets demandés sous forme de liste. La commande, d-i
+pkgsel est assez <strong>intuitive</strong> puisqu’il suffit uniquement
+de rajouter les paquets voulus. On peut ajouter <em>tout ce que l’on
+veut</em> à la suite de cette ligne, en plus des autres paquets
+installés. <a href="#fn21" class="footnote-ref" id="fnref21"
+role="doc-noteref"><sup>21</sup></a></p>
+</blockquote>
+<p><img src="./img/semaine01/questions5/question3.png"
+alt="Illustration dans VSCode" /><br />
+</p>
+<div class="info">
+<p><strong>Rappel</strong> : les paquets sont une liste
+d’<em>applications</em> qui seront installées sur notre système. Ici,
+ils le sont par défaut, sans un quelconque effort de notre utilisateur
+<em>user</em> !</p>
+</div>
+<p> </p>
+<hr />
+<p>Les <strong>fichiers</strong> de l’installation automatisée sont
+<em>maintenant</em> prêts à <strong>l’emploi</strong>. Pour les
+appliquer, il faut aller dans le <strong>répertoire</strong>
+<em>VirtualBox</em> de notre machine virtuelle (généralement
+/users/nomutilisateur/VirtualBox VMs/nommachine) et ajouter le dossier
+<em>autoinstall</em> préparé et les fichiers le contenant.</p>
+<p><img src="./img/semaine01/questions5/autoinstall.png"
+alt="Placer les fichiers" /><br />
+</p>
+<p>De plus, il ne faut pas oublier d’ajouter un
+<strong><em>UUID</em></strong> dans le fichier <em>.viso</em>. <a
+href="#fn22" class="footnote-ref" id="fnref22"
+role="doc-noteref"><sup>22</sup></a></p>
+<div class="info">
+<p>Un <strong><em>UUID</em></strong> est un <em>identifiant unique
+universel</em> d’une taille de <strong>128 bits</strong>. La machine
+virtuelle en a besoin pour <strong>identifier</strong> le système.</p>
+</div>
+<p>Pour ce faire, le plus simple est d’en générer un en ligne. N’importe
+quel générateur suffit.</p>
+<p><img src="./img/semaine01/questions5/uuid.png"
+alt="Génération UUID" /><br />
+</p>
+<p>Ensuite, il faut l’ajouter dans la case <strong>spécifiée</strong>
+dans le ficher <em>.viso</em>.</p>
+<p><img src="./img/semaine01/questions5/viso.png"
+alt="UUID dans le .viso" /><br />
+</p>
+<p>Il ne reste maintenant plus qu’à lancer la <strong>machine
+virtuelle</strong> et attendre.</p>
+<hr />
+<p><strong><em>C’est donc la fin de la semaine 1.</em></strong></p>
+<blockquote>
+<p>Nous avons globalement constaté que la plupart des difficultés
+rencontrées pouvaient en <strong>réalité</strong> être répondues
+<em>d’elles-mêmes</em> dans le fichier, qui, par sa
+<strong>clarté</strong> et ses <strong>indications
+commentaires</strong>, nous dit souvent implicitement que l’instruction
+est <strong>déjà écrite</strong> et qu’il n’y a plus qu’à la modifier
+pour installer le <strong>paquet</strong> que l’on souhaite (par
+exemple).</p>
+</blockquote>
+<blockquote>
+<p>Par ailleurs, notre équipe n’étant <strong>pas toujours</strong> à
+l’aise avec les commandes bash, il a fallu chercher sur le <em>Web</em>,
+qui nous a donné des réponses (les demandes sont assez
+<strong>courantes</strong> donc les commandes sont aussi universelles)
+que l’on a testé, qui ont <strong>parfois marché</strong> et d’autres
+fois <strong>non</strong>.</p>
+</blockquote>
+<blockquote>
+<p>Ce mode d’apprentissage, débutant par des échecs
+<strong>probables</strong>, se finissant par un succès quasi certain,
+fait de cette méthode parfois frustrante un moyen finalement
+<strong>très efficace</strong> pour progresser dans nos compétences.</p>
+</blockquote>
+<hr />
+<h2 id="semaine-03-étude-applications-clientes">Semaine 03 : Étude
+applications clientes</h2>
+<p>Lors de cette semaine, nous parlerons de <em>git</em> et de ses
+déclinaisons (applications clientes).</p>
+<p>Mais tout d’abord, qu’est-ce que <em>git</em> ? Il faut le
+comprendre, car c’est un outil très utilisé dans l’informatique. Git est
+très fortement relié à <em>Linux</em>. En effet, Git a été
+<strong>développé</strong> par <em>Linus Torvalds</em> (créateur de
+<em>Linux</em>) en 2005 pour répondre aux besoins du projet Linux après
+l’abandon de <em>BitKeeper</em>, un logiciel de <strong>gestion de
+versions</strong> auparavant utilisé par la communauté Linux. Son
+objectif était de créer un outil rapide, distribué et fiable pour la
+gestion du code source. Depuis, Git est devenu la
+<strong>référence</strong> en matière de <strong>gestion de
+versions</strong>, adopté par la <strong>plupart des entreprises et
+projets open source</strong>. <a href="#fn23" class="footnote-ref"
+id="fnref23" role="doc-noteref"><sup>23</sup></a></p>
+<h3 id="questions-0.-configuration-globale-de-git">Question(s) 0.
+Configuration globale de git</h3>
+<p><strong>Configuration rapide de git</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">&quot;Prénom Nom&quot;</span> </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">&quot;votre@email&quot;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> init.defaultBranch <span class="st">&quot;master&quot;</span> </span></code></pre></div>
+<p>Nous avons ajouté notre <strong>nom et email</strong> à la
+<em>configuration git</em>. Puis, notre par défaut sera . Cette branche
+sera la destination de nos fichiers en . <a href="#fn24"
+class="footnote-ref" id="fnref24"
+role="doc-noteref"><sup>24</sup></a></p>
+<div class="info">
+<p>Un commit est une opération qui envoie les dernières modifications du
+code source au référentiel, faisant de ces modifications une partie de
+la révision principale du référentiel. <a href="#fn25"
+class="footnote-ref" id="fnref25"
+role="doc-noteref"><sup>25</sup></a></p>
+</div>
+<hr />
+<h3 id="questions-1.-préliminaire">Question(s) 1. Préliminaire</h3>
+<p><strong>Qu’est-ce que le logiciel <em>gitk</em> ? Comment se
+lance-t-il ?</strong></p>
+<blockquote>
+<p>Le logiciel est un <strong>outil graphique</strong> pour visualiser
+l’historique des commits dans un dépôt Git. Il permet de naviguer
+facilement entre les commits, de voir les modifications apportées et de
+suivre l’évolution du projet. <a href="#fn26" class="footnote-ref"
+id="fnref26" role="doc-noteref"><sup>26</sup></a> Il se lance avec la
+commande<br />
+</p>
+</blockquote>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gitk</span></span></code></pre></div>
+<p><br />
+<img src="./img/semaine03/questions1/gitk.png"
+alt="Illustration de gitk" /></p>
+<p><strong>Qu’est-ce que le logiciel <em>git-gui</em> ? Comment se
+lance-t-il ?</strong></p>
+<blockquote>
+<p>Le logiciel est une <strong>interface graphique</strong> pour gérer
+les dépôts Git. Elle permet d’effectuer des opérations courantes comme
+les commits, les merges et les pushes, offrant une alternative visuelle
+aux commandes en ligne de commande. Il est <em>très</em> similaire à
+gitk (le concept sera un peu toujours le même). <a href="#fn27"
+class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a>
+Il se lance avec la commande<br />
+</p>
+</blockquote>
+<div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">git-gui</span></span></code></pre></div>
+<p><br />
+<img src="./img/semaine03/questions1/git-gui.png"
+alt="Illustration de git-gui" /></p>
+<hr />
+<h3 id="questions-2.-comparons">Question(s) 2. Comparons</h3>
+<blockquote>
+<p>Dans cette partie, nous aurons choisi <em>smartgit</em>.<br />
+<img src="./img/semaine03/questions2/smartgit.png"
+alt="Illustration de smartgit" /></p>
+</blockquote>
+<p><strong>Pourquoi avez-vous choisi ce logiciel ?</strong></p>
+<blockquote>
+<p>Nous avons choisi <em>smartgit</em> pour sa gratuité (<em>à usage
+non-commercial</em>) et pour sa bonne réputation. Nos
+<strong>principaux</strong> critères sont la <strong>facilité</strong>
+d’utilisation pour les outils de base. Il propose également des
+fonctionnalités plus complexes.</p>
+</blockquote>
+<p><strong>Comment l’avez vous installé ?</strong></p>
+<blockquote>
+<p>Il a globalement suffi de suivre les instructions <em>présentes</em>
+sur le site <a href="#fn28" class="footnote-ref" id="fnref28"
+role="doc-noteref"><sup>28</sup></a> Nous l’avons installé avec le
+‘bundle debian’ proposé sur le site, qui simplifie le processus en
+regroupant tous les fichiers nécessaires. Il suffit ensuite les
+commandes suivantes dans un <em>terminal</em> :</p>
+</blockquote>
+<div class="sourceCode" id="cb5"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> dpkg <span class="at">-i</span> <span class="op">&lt;</span>smartgit<span class="pp">*</span>.deb<span class="op">&gt;</span></span></code></pre></div>
+<blockquote>
+<p><em>dpkg</em> est l’outil de gestion des packages Debian, et l’option
+-i signifie “installer”. le caractère * dans <code>smartgit*.deb</code>
+signifie que nous spécifions n’importe quel fichier <em>commençant
+par</em> <code>smartgit</code> et se terminant par
+<code>.deb</code>.</p>
+</blockquote>
+<p>En cas de problème, la commande suivante est utile :</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt <span class="at">--fix-broken</span> install</span></code></pre></div>
+<blockquote>
+<p><em>apt</em> est similaire à <em>dpkg</em>, nous servant pour
+manipuler des <em>packages</em> (paquets).
+<code>--fix-broken install</code> cette option indique à apt qu’il faut
+corriger d’éventuelles dépendances manquantes en cas de problème.</p>
+</blockquote>
+<p><strong>Comparez-le aux outils inclus avec git (et installé
+précédemment) ainsi qu’avec ce qui serait fait en ligne de commande pure
+: fonctionnalités avantages, inconvénients…</strong></p>
+<blockquote>
+<p>Le logiciel est assez <strong>complet</strong> et a été plutôt facile
+à <em>prendre en main</em>. Il est possible de faire des
+<em>micros-sauvegardes</em>. Globalement nous sommes des débutants dans
+le milieu de git donc nous ne pouvons pas tout lister, mais nous sommes
+satisfaits de <em>SmartGit</em> pour l’utilisation que l’on en a
+fait.</p>
+</blockquote>
+<p>Un apprentissage plus de <code>git</code> nous sera dispensé tout au
+long du Semestre 2 dans la ressource <strong>Qualité de
+développement</strong>, donc il est toujours utile d’en apprendre
+plus.</p>
+<hr />
+<h3 id="conclusion-du-rapport-intermédiaire">Conclusion du rapport
+intermédiaire</h3>
+<p>Ce rapport intermédiaire est désormais <strong>fini</strong>. Du
+détail a été apporté dans <strong>l’obtention de nos réponses</strong>,
+ainsi il n’est que <strong>logique</strong> de détailler également la
+<strong>construction</strong> de ce rapport.</p>
+<hr />
+<h4 id="premier-parcours">Premier parcours</h4>
+<blockquote>
+<p>Dans un <strong>premier temps</strong>, nous avons répondu aux
+questions sous <strong>forme brute</strong>. Ensuite, nous avons
+<strong>décidé</strong> d’une <em>mise en page type</em> à reproduire
+sur <strong>chaque</strong> question (question en gras, réponse en
+normal). Nous avons vu les <strong>parties</strong> où il était possible
+d’utiliser des formules plus <strong>complexes</strong> (tableau,
+sources, lignes de commande…).</p>
+</blockquote>
+<hr />
+<h4 id="détails">Détails</h4>
+<blockquote>
+<p>TeX Live est assez <strong>fourni</strong> (plus de 3000 paquets
+installés pendant 1h30) donc nous avons testé <strong>beaucoup</strong>
+de façons de compiler le document (différentes polices, paramètres,
+templates…).</p>
+</blockquote>
+<div class="info">
+<p><em>TeX</em> est, un peu comme le <em>markdown</em>, un language de
+typographie assez avancé laissant <strong>beaucoup de place</strong> au
+paramétrage. Il est <em>très utilisé</em> dans l’écriture de
+<strong>documents académiques</strong>. Dans notre document, nous en
+utilisons une partie, <em>grâce à ses</em> <strong>nombreuses
+déclinaisons</strong>.</p>
+</div>
+<p>Enfin, quelques petites retouches ont été apportées, croyant en
+l’importance des détails.</p>
+<ul>
+<li><p>Quelques paramètres | détails utilisés :</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Modification</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>margin</td>
+<td>3cm, très bien</td>
+</tr>
+<tr>
+<td></td>
+<td>“macro” de TeX. Trouvé dans la documentation</td>
+</tr>
+<tr>
+<td>arborescence fichiers</td>
+<td>Les fichiers, images sont stockés à des endroits précis et de façon
+propre.</td>
+</tr>
+<tr>
+<td>images</td>
+<td>Modifications rapides de l’image (entourer, surligner) sur GIMP</td>
+</tr>
+<tr>
+<td>invites de commandes</td>
+<td>intégration avec ’’’</td>
+</tr>
+</tbody>
+</table></li>
+</ul>
+<p>Ce <strong>rapport</strong>, car , peut être <strong>sujet</strong> à
+de futurs changements dans sa version finale.</p>
+<hr />
+<h2 id="semaine-04-installation-de-gitea">Semaine 04 : Installation de
+<em>Gitea</em></h2>
+<p>Nous attaquons alors cette semaine 4 par une installation de
+<em>Gitea</em>. Commençons sans plus attendre.</p>
+<h3 id="questions-1.-a-propos-de-gitea">Question(s) 1. A propos de
+<em>Gitea</em></h3>
+<p><strong>Qu’est-ce que Gitea ?</strong></p>
+<blockquote>
+<p><em>Gitea</em> est un de <em>développement</em> logiciel tout-en-un,
+auto-hébergé et sans douleur. Il comprend l’hébergement <em>Git</em>,
+l’examen du code, la collaboration en équipe, le registre des paquets et
+le CI/CD. Il est similaire à <em>GitHub</em>, <em>Bitbucket</em> et
+<em>GitLab</em>.</p>
+</blockquote>
+<blockquote>
+<p>(Traduction de la documentation officielle <a href="#fn29"
+class="footnote-ref" id="fnref29"
+role="doc-noteref"><sup>29</sup></a>)</p>
+</blockquote>
+<p><strong>À quels logiciels bien connus dans ce domaine peut-on le
+comparer (en citer au moins 2) ?</strong></p>
+<blockquote>
+<p><em>Gitea</em> peut être comparé, et se compare, à <em>GitHub
+EE</em>, <em>GitLab CE</em> (<em>Community Edition</em>) et à
+<em>BitBucket</em>. <a href="#fn30" class="footnote-ref" id="fnref30"
+role="doc-noteref"><sup>30</sup></a>  </p>
+</blockquote>
+<p><strong>Qu’est-ce qu’un fork (dans le domaine du développement
+logiciel bien entendu) ?</strong></p>
+<blockquote>
+<p>Un <em>fork</em> est une <strong>duplication</strong>. C’est est un
+nouveau référentiel qui partage le code et les paramètres de visibilité
+avec le référentiel « en amont » d’origine. Les duplications sont
+souvent utilisées pour <strong>itérer sur les idées ou les
+modifications</strong> avant qu’elles ne soient proposées à nouveau au
+référentiel en amont, par exemple dans des projets open source ou
+lorsqu’un utilisateur n’a <strong>pas d’accès en écriture</strong> au
+référentiel en amont. <a href="#fn31" class="footnote-ref" id="fnref31"
+role="doc-noteref"><sup>31</sup></a><br />
+</p>
+</blockquote>
+<p><strong>De quel logiciel Gitea est-il le fork ? Ce logiciel
+existe-t-il encore ?</strong></p>
+<blockquote>
+<p><em>Gitea</em> est le fork, soit la duplication, ou une dérivée, du
+<em>Gogs</em>. Ce logiciel existe encore, mais n’est <strong>pas très
+connu</strong>. Les sources sur le fork sont d’ailleurs minces mais
+<strong>suffisantes</strong>. Le site officiel de <em>Gitea</em>
+mentionne toutefois que <strong>quasiment tout le code a
+changé</strong>. <a href="#fn32" class="footnote-ref" id="fnref32"
+role="doc-noteref"><sup>32</sup></a><br />
+</p>
+</blockquote>
+<hr />
+<h3 id="installation-de-gitea-opérations">Installation de Gitea ;
+opérations</h3>
+<blockquote>
+<p>Nous allons désormais procéder à <strong>l’installation</strong> de
+<em>Gitea</em>, le tout en <em>expliquant</em> de façon .<br />
+</p>
+</blockquote>
+<ul>
+<li><p>Cette section contiendra :</p>
+<ul>
+<li>commandes réalisées <strong>avant, pendant et après</strong>
+l’installation ;</li>
+<li> des fichiers créés ;</li>
+<li> des fichiers de configuration.</li>
+</ul></li>
+</ul>
+<p>Nous <strong>suivrons</strong> les indications de <em>l’installation
+binaire</em> venant de la documentation <strong>officielle</strong> de
+<em>Gitea</em>. Les commandes les plus importantes seront accompagnées
+d’une image pour renseigner le retour.</p>
+<p><img src="./img/semaine04/installationGitea/wget.png"
+alt="Obtention du binaire" /><br />
+</p>
+<p>Ici, nous avons le <em>binaire</em> de gitea. Ce fichier contient en
+quelque sorte le <strong>code source</strong> de <em>Gitea</em>. Il sera
+placé dans notre répertoire courant et nous allons ensuite le
+manipuler.</p>
+<p>Ensuite, la commande</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x gitea</span></code></pre></div>
+<p>rend le fichier <strong>exécutable</strong>.</p>
+<p>Pour <strong>s’assurer</strong> que le binaire n’a pas été
+<strong>modifié</strong>, on <strong>vérifie</strong> sa <em>signature
+GPG</em>. Nous allons vérifier son authenticité en vérifiant la
+<strong>validité de la signature</strong>. Cela permet de s’assurer que
+nous avons obtenu la version <strong>officielle</strong> du binaire.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gpg</span> <span class="at">--keyserver</span> keys.openpgp.org <span class="at">--recv</span> 7C9E68152594688862D62AF62D9AE806EC1592E2</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">gpg</span> <span class="at">--verify</span> gitea-1.23.5-linux-amd64.asc gitea-1.23.5-linux-amd64</span></code></pre></div>
+<p>Pour la , une signature <em>GPG</em>, ou <em>GNU-PG</em>, est un type
+de beaucoup utilisé sur les systèmes d’exploitation <em>Linux</em>,
+notamment dans notre cas ; la <strong>vérification de fichiers
+installés</strong>.</p>
+<p><br />
+</p>
+<p><img src="./img/semaine04/installationGitea/gpg.png"
+alt="Vérification GPG" /><br />
+</p>
+<div class="info">
+<p><em>Image parlante du cas cryptage GPG</em> <a href="#fn33"
+class="footnote-ref" id="fnref33"
+role="doc-noteref"><sup>33</sup></a></p>
+</div>
+<p>Avant d’installer <em>Gitea</em>, nous devons nous
+<strong>assurer</strong> que <em>Git </em>(comme introduit plus haut)
+est installé.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span></code></pre></div>
+<p>Ensuite, il nous faut <strong>créer</strong> un utilisateur dédié
+pour <em>Gitea</em>. Ici, nous <strong>ajoutons</strong> un nouvel
+utilisateur à notre système qui sera nommé <em>git</em>.</p>
+<ul>
+<li>Différentes options seront utilisées :
+<ul>
+<li> <em>system</em> signifie que l’utilisateur n’a pas d’accès
+interactif et possède un UID en dehors de la plage des utilisateurs
+normaux.</li>
+<li> <em>gecos</em> représente la description donnée à
+l’utilisateur.</li>
+<li> <em>group</em> va créer un groupe du même nom que l’utilisateur où
+il sera ajouté automatiquement.</li>
+<li> <em>disabled-password</em> désactive le mot de passe de
+l’utilisateur.</li>
+<li> <em>home /home/git</em> donne ce répertoire comme le répertoire
+personnel de l’utilisateur.</li>
+<li>, cet utilisateur aura le sobre nom de <em>git</em>.</li>
+</ul></li>
+</ul>
+<p><br />
+</p>
+<p><img src="./img/semaine04/installationGitea/adduser.png"
+alt="Ajout d’utilisateur" /><br />
+</p>
+<p><em>Gitea</em> a besoin de répertoires pour
+<strong>fonctionner</strong>. Nous devons alors en créer
+<strong>certains</strong>. Nous donnerons aussi les droits
+<strong>nécessaires</strong> pour que l’utilisateur <em>git</em> puisse
+les <strong>exécuter</strong>.</p>
+<hr />
+<p><em>Au lieu de donner une description globale de la chose</em>, il
+sera <strong>préférable</strong> – <strong>et préféré ici</strong> de
+décrire <em>une à une</em> les commandes utilisées ;</p>
+<p><strong><code>mkdir -p /var/lib/gitea/{custom,data,log}</code></strong></p>
+<blockquote>
+<p>Établit les répertoires custom, data, et log dans /var/lib/gitea
+s’ils n’existent pas déjà. L’option -p permet de créer les répertoires
+parents nécessaires.</p>
+</blockquote>
+<p><strong><code>chown -R git:git /var/lib/gitea/</code></strong></p>
+<blockquote>
+<p>Change le propriétaire et le groupe de tous les fichiers et
+répertoires dans /var/lib/gitea/ pour qu’ils appartiennent à
+l’utilisateur git et au groupe git. L’option -R applique la commande de
+manière récursive.</p>
+</blockquote>
+<p><strong><code>chmod -R 750 /var/lib/gitea/</code></strong></p>
+<blockquote>
+<p>Modifie les permissions de tous les fichiers et répertoires dans
+/var/lib/gitea/ pour que le propriétaire ait tous les droits (lecture,
+écriture, exécution), le groupe ait les droits de lecture et
+d’exécution, et les autres utilisateurs n’aient aucun droit. L’option -R
+applique la commande de manière récursive.</p>
+</blockquote>
+<p><strong><code>mkdir /etc/gitea</code></strong></p>
+<blockquote>
+<p>Crée le répertoire /etc/gitea s’il n’existe pas déjà.</p>
+</blockquote>
+<p><strong><code>chown root:git /etc/gitea</code></strong></p>
+<blockquote>
+<p>Change le propriétaire du répertoire /etc/gitea pour qu’il
+appartienne à l’utilisateur root et au groupe git.</p>
+</blockquote>
+<p><strong><code>chmod 770 /etc/gitea</code></strong></p>
+<blockquote>
+<p>Modifie les permissions du répertoire /etc/gitea pour que le
+propriétaire et le groupe aient tous les droits (lecture, écriture,
+exécution), et les autres utilisateurs (<em>other</em>) n’aient aucun
+droit.</p>
+</blockquote>
+<hr />
+<p>Après avoir <strong>compris</strong> le sens de chaque commande, nous
+pouvons les <strong>exécuter</strong> <em>en même temps</em> (ce qui est
+prévu dans l’installation).</p>
+<p><img src="./img/semaine04/installationGitea/repertoires.png"
+alt="Ajout d’utilisateur" /><br />
+</p>
+<p>Nous allons définir le répertoire de travail de <em>gitea</em> dans
+un espace dédié. Cela signifie que les fichiers seront utilisés à un
+endroit propre et défini.</p>
+<p><strong><code>export GITEA_WORK_DIR=/var/lib/gitea/</code></strong></p>
+<blockquote>
+<p>Enfin, nous allons copier le binaire Gitea dans un répertoire où il
+peut être exécuté par tous les utilisateurs.</p>
+</blockquote>
+<p><strong><code>cp gitea /usr/local/bin/gitea</code></strong></p>
+<blockquote>
+<p>Cela va <strong>copier</strong> le binaire Gitea dans /usr/local/bin
+pour qu’il soit accessible globalement.</p>
+</blockquote>
+<p>Nous pouvons lancer <em>Gitea</em> <strong><em>après avoir fait tout
+le nécessaire</em></strong>.</p>
+<div class="error">
+<p>Nous avons rencontré <em>quelques erreurs</em> au cours de cette
+installation mais elles s’expliquaient juste par une <strong>mauvaise
+lecture</strong> de l’installation recommandée. Il est
+<strong>important</strong> de tout lire au lieu de juste copier les
+commandes <em>une par une</em>.</p>
+</div>
+<div class="info">
+<p>Cette partie est <em>optionnelle</em>, mais par soucis du détail,
+elle sera <em>naturellement décrite</em> comme <strong>partie
+intégrante</strong> de l’installation.</p>
+</div>
+<p>Nous allons <strong>maintenant</strong> créer un service linux pour
+<em>Gitea</em>. Cela permettra de lancer automatiquement <em>Gitea</em>
+à chaque démmarage du serveur.</p>
+<p>Nous pouvons récupérer un fichier de <em>configuration de
+service</em> à modifier ici :
+https://github.com/go-gitea/gitea/blob/release/v1.23/contrib/systemd/gitea.service</p>
+<p>Pour ensuite le placer à cet emplacement :</p>
+<p><strong>/etc/systemd/system/</strong></p>
+<div class="info">
+<p>Il est aussi possible d’obtenir un fichier préconfiguré pour nos
+réglage avec la commande :</p>
+<p><strong><code>wget https://raw.githubusercontent.com/go-gitea/gitea/master/contrib/systemd/gitea.service -P /etc/systemd/system/</code></strong></p>
+</div>
+<p>Nous pouvons maintenant lancer le service, et, par la suite, il se
+lancera automatiquement avec la commande :</p>
+<p><strong><code>systemctl enable --now gitea</code></strong></p>
+<p>Pour vérifier le bon fonctionnement du service (et obtenir des
+informations sur le <em>statut</em> de <em>Gitea</em>) on peut utiliser
+la commande :</p>
+<p><strong><code>systemctl status gitea</code></strong></p>
+<p>Pour arrêter le service :</p>
+<p><strong><code>systemctl stop gitea</code></strong></p>
+<p>Pour le relancer :</p>
+<p><strong><code>systemctl restart gitea</code></strong></p>
+<p>Dans le cas d’un accès au serveur, il faudra permettre l’utilisation
+d’un port.</p>
+<p>Dans le cas d’une machine virtuelle, il faudra faire une redirection
+de port.</p>
+<p>Sinon, il <em>convient</em> d’utiliser :</p>
+<p><strong><code>ufw allow 3000/tcp</code></strong></p>
+<div class="info">
+<p>Vous pouvez accéder au serveur depuis un navigateur web grâce à cette
+url :<br />
+<strong>localhost:3000</strong> depuis votre machine (ou depuis votre
+machine princcipale avec une machine virtuelle)</p>
+<p>ou alors :</p>
+<p><strong>“ip serveur”:3000</strong> depuis une autre machine</p>
+</div>
+<p>Maintenant, nous pouvons paramétrer <em>Gitea</em> par la page
+<em>Web</em> !</p>
+<p><img src="./img/semaine04/installationGitea/parametrageWeb.png"
+alt="Paramètrage web de Gitea" /><br />
+</p>
+<p><img src="./img/semaine04/installationGitea/parametrageAdmin.png"
+alt="Définition d’un Administrateur" /><br />
+</p>
+<div class="warning">
+<p>Il est important de ne pas oublier de redéfinir les droits d’accès
+aux fichiers de configuration de <em>Gitea</em>.</p>
+</div>
+<p><strong><code>chmod 750 /etc/gitea</code></strong></p>
+<p><strong><code>chmod 640 /etc/gitea/app.ini</code></strong></p>
+<p>Vous pouvez maintenant utiliser les <strong>fonctionnalités</strong>
+<em>à part entière</em> de Gitea !</p>
+<p>Vous pouvez <strong>inscrire</strong> de nouveaux utilisateurs et les
+gérer de façon <em>intuitive</em>.<br />
+</p>
+<p><img src="./img/semaine04/installationGitea/inscriptionGitea.png"
+alt="Inscription d’un nouvel utilisateur" /><br />
+</p>
+<p><img src="./img/semaine04/installationGitea/parametrageAdmin.png"
+alt="Gestion Administarteur" /><br />
+</p>
+<hr />
+<h3 id="questions-2.-mise-à-jour">Question(s) 2. Mise à jour</h3>
+<p><strong>Donnez la version que vous avez installé et la commande
+permettant d’obtenir cette information.</strong></p>
+<blockquote>
+<p>Pour <em>obtenir</em> la version installée de Gitea, nous pouvons
+utiliser la commande :</p>
+</blockquote>
+<p><strong><code>gitea --version</code></strong></p>
+<p>Ici, nous obtenons la version <em>1.23.5</em>.</p>
+<p><strong>Comment faire pour mettre à jour le binaire de votre service
+sans devoir tout reconfigurer ? Essayez en mettant à jour vers la
+version 1.24-dev.</strong></p>
+<blockquote>
+<p>Pour <strong>mettre à jour</strong> le binaire, il faut
+<strong>télécharger</strong> le <em>nouveau</em> binaire de la
+<em>version voulue</em> puis <em>remplacer l’ancien</em> dans le dossier
+<strong>/usr/local/bin</strong>.</p>
+</blockquote>
+<p>Nous pouvons tester en mettant à jour vers la version 1.24-dev avec
+la commande :</p>
+<p><strong><code>wget -O /usr/bin/gitea https://dl.gitea.com/gitea/main-nightly/gitea-main-nightly-linux-amd64</code></strong></p>
+<div class="warning">
+<p>Il ne faut pas oublier d’arrêter le service avant, pour le relancer
+après.</p>
+</div>
+<hr />
+<h3 id="tests-dutilisation">Tests d’utilisation</h3>
+<p>Le logiciel <em>Gitea</em>, après des efforts d’installation (<em>et
+de configuration</em>) <strong>plus ou moins importants</strong>, compte
+bien nous être utile.</p>
+<blockquote>
+<p><em>Ajout d’un projet depuis l’interface Web ;</em></p>
+</blockquote>
+<p>Nous avons ajouté de façon simple les <em>TP java</em> du <em>second
+semestre</em> avec l’utilisateur <em>numéro 1</em>.</p>
+<p><img src="./img/semaine04/installationGitea/depot.png"
+alt="Dépôt TP java" /><br />
+</p>
+<div class="info">
+<p>Le <em>java</em> est un <em>langage de programmation</em> dont
+l’apprentissage nous est dispensé <em>tout au long de</em> la
+<strong>formation</strong>.</p>
+<p>Exemple de code <em>java</em> :</p>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> test <span class="op">{</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">public</span> <span class="dt">static</span> <span class="dt">void</span> <span class="fu">main</span><span class="op">(</span><span class="bu">String</span><span class="op">[]</span> args<span class="op">){</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">System</span><span class="op">.</span><span class="fu">out</span><span class="op">.</span><span class="fu">println</span><span class="op">(</span><span class="st">&quot;je suis java&quot;</span><span class="op">);</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="op">}</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</div>
+<blockquote>
+<p><em>Ajout de cette SAé ;</em></p>
+</blockquote>
+<p>Nous avons ajouté cette SAé avec l’utilisateur <em>numéro 2</em>.</p>
+<p><img
+src="./img/semaine04/installationGitea/ajoutAutreUtilisateur.png"
+alt="Dépôt SAé" /><br />
+</p>
+<blockquote>
+<p><em>Partage aux différents utilisateurs ;</em></p>
+</blockquote>
+<p>Depuis l’interface <em>administrateur</em>, nous pouvons gérer les
+<em>comptes des utilisateurs</em> <strong>ainsi que leurs
+accès</strong></p>
+<p><img src="./img/semaine04/installationGitea/gestionAdmin.png"
+alt="Gestion des comptes utilisateur" /><br />
+</p>
+<p>Nous pouvons également supprimer un utilisateur de notre projet.</p>
+<p><img src="./img/semaine04/installationGitea/droitAccesDepot.png"
+alt="Suppression d’un compte utilisateur" /><br />
+</p>
+<p>D’autres actions sont possibles ;</p>
+<p>Les permissions dans Gitea permettent de gérer l’accès aux
+différentes fonctionnalités d’un dépôt. Par exemple, les unités telles
+que <strong>le code, les issues, les pull requests, les releases, le
+wiki, les projets, les packages, les actions et les paramètres</strong>
+peuvent être configurées avec des <em>niveaux d’accès spécifiques</em>.
+Les niveaux de permission incluent ‘Read’ (lecture), ‘Write’ (écriture)
+et ‘Admin’ (administration), chacun offrant <strong>des droits d’accès
+et de modification différents</strong>. <a href="#fn34"
+class="footnote-ref" id="fnref34"
+role="doc-noteref"><sup>34</sup></a></p>
+<p>Il est <em>plus simple</em> de visualiser ça sous la forme d’un
+tableau :</p>
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 37%" />
+<col style="width: 29%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Nom</strong></th>
+<th><strong>Lecture</strong> (<em>read</em>)</th>
+<th><strong>Écriture</strong> (<em>write</em>)</th>
+<th><strong>Admin</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Code</em></td>
+<td>Voir l’arborescence, les fichiers, commits, branches, etc.</td>
+<td>“Push” du code.</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em>Issues</em></td>
+<td>Voir les issues et en créer de nouvelles.</td>
+<td>Ajouter des labels, assigner, fermer.</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em>Pull Requests</em></td>
+<td>Voir et créer de nouvelles pull requests.</td>
+<td>Ajouter des labels, assigner, fermer.</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em>Releases</em></td>
+<td>Voir les releases et télécharger des fichiers.</td>
+<td>Créer/éditer des releases.</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em>Wiki</em></td>
+<td>Voir les pages du wiki. Cloner le dépôt du wiki.</td>
+<td>Créer/éditer des pages du wiki, “Push”.</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em>Wiki Externe</em></td>
+<td>Lien vers un wiki externe.</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em>Tracker Externe</em></td>
+<td>Lien vers un tracker d’issues externe.</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em>Projets</em></td>
+<td>Voir les colonnes des projets.</td>
+<td>Modifier les issues à travers les colonnes.</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em>Packages</em></td>
+<td>Voir les packages.</td>
+<td>Télécharger/supprimer des packages.</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em>Actions</em></td>
+<td>Voir les journaux des actions.</td>
+<td>Approuver / Annuler / Redémarrer.</td>
+<td>-</td>
+</tr>
+<tr>
+<td><em>Paramètres</em></td>
+<td>-</td>
+<td>-</td>
+<td>Gérer le dépôt.</td>
+</tr>
+</tbody>
+</table>
+<div class="info">
+<p>Cette partie sur <em>gitea</em> et sa configuration a été assez
+compliquée pour nous en comparaison au reste du rapport. De plus, nous
+n’avons pas aimé faire cette partie, nous l’avons souvent trouvé
+<strong>frustrante</strong>. Le fait que ce soit la dernière partie y
+contribue sûrement. Des problèmes comme la <em>fusion de branches</em>
+et la <em>gestion des accès</em> ont causé beaucoup de trouble.</p>
+<p>Néanmoins il a <em>fallu avancer</em> et avec <strong>assez de
+recherche et d’essais</strong>, <em>le travail finit toujours par
+payer</em>.</p>
+<p>Nos <strong>principales erreurs</strong> étaient dues à de
+l’inattention et parfois une précipitation <em>sans toujours</em> lire
+la documentation. Avec une <strong><em>lecture assidue</em></strong> de
+la documentation et de forums de <em>déboggage</em> aux problèmes
+courants, cela devient <strong>plus facile</strong>.</p>
+</div>
+<hr />
+<h3 id="pour-aller-plus-loin">Pour aller plus loin</h3>
+<blockquote>
+<p>Il n’y a de que notre <strong>imagination</strong>, donc cette est
+<em>naturelle</em>.</p>
+</blockquote>
+<p><strong>Qu’est-ce que l’intégration et la livraison continue
+?</strong></p>
+<blockquote>
+<p>L’<strong>intégration continue</strong> (CI) est une pratique
+logicielle qui nécessite un <em>committing</em> fréquent du code dans un
+dépôt partagé. La plupart du temps, le fait de commiter le code permet
+de détecter plus rapidement les , et réduit la quantité de code dont un
+<strong>développeur</strong> a besoin pour le débogage lorsqu’il
+recherche la source d’une <em>erreur</em>. Les mises à jour fréquentes
+du code <em>facilitent</em> également la fusion des modifications
+apportées par <em>différents membres</em> d’une équipe de développement
+logiciel.</p>
+</blockquote>
+<blockquote>
+<p>La <strong>livraison continue</strong> consiste à ce que les
+développeurs de logiciels suivent des cycles courts et continus pour
+mettre à jour le code, tout en faisant appel à
+<strong>l’automatisation</strong> pour accélérer la sortie des nouvelles
+versions. Ce mot va de pair avec le métier/la catégorie de
+<em>DevOps</em>. <a href="#fn35" class="footnote-ref" id="fnref35"
+role="doc-noteref"><sup>35</sup></a></p>
+</blockquote>
+<p><strong>Ajoutez et testez ces fonctionnalités (avec vos sources Java
+ou avec votre rapport markdown).</strong></p>
+<blockquote>
+<p>Cette partie est présente dans les <strong><em>Tests
+d’utilisation</em></strong>.</p>
+</blockquote>
+<div class="error">
+<p>Il est possible que nous ayons mal compris le sujet de cette
+question.</p>
+</div>
+<hr />
+<h2 id="semaine-05-rendu">Semaine 05 : Rendu</h2>
+<h3 id="conclusion">Conclusion</h3>
+<ul>
+<li>Les <em>principaux points</em> qui ont :
+<ul>
+<li>Le projet <strong><em>pandoc latex template master</em></strong>,
+amélioration de <em>eisvogel</em> disponible sur <em>github</em>, est un
+ensemble de <em>templates</em> extrêmement complet et fourni avec
+beaucoup d’exemples nous a plus que satisfait sur la mise en page que
+nous souhaitions. Nous ne trouvions pas de bons templates ou alors ils
+étaient incompatibles avec notre format. Les <em>macros</em> TeX ont
+beaucoup aidé pour aller plus loin en terme de graphisme. Ensuite, nous
+avons beaucoup joué avec les <strong>fichiers</strong> <em>TeX</em>, les
+<strong>tailles</strong>, les <strong>polices</strong>… tout cela pour
+trouver <em>chaussure à notre pied</em>.</li>
+</ul>
+<div class="info">
+<p>Dans notre cas, un <em>template</em> TeX est une façon de
+<em>styliser</em> notre document en modifiant des détails comme le
+placement des objets, les <strong>couleurs</strong>, ou tout simplement
+l’amélioration <strong>graphique globale</strong> <em>à l’œil</em>. Par
+exemple, cette boîte de texte est permise par le template utilisé.</p>
+</div>
+<ul>
+<li><p>Ainsi, nous aurions <em>parfois préféré</em> écrire ce rapport
+entièrement en <strong>TeX</strong> et ses déclinaisons car nous pensons
+qu’il est plus complet et adapté pour obtenir la qualité que nous
+souhaitons ;</p></li>
+<li><p>Le format <strong>Markdown/Pandoc</strong> reste très bien et il
+n’est pas un problème, c’est juste que <em>TeX</em> et ses déclinaisons
+nous permettraient d’aller encore plus loin et nous l’essaierons pour de
+futurs projets.</p></li>
+</ul></li>
+</ul>
+<hr />
+<ul>
+<li>Mais surtout, <strong>beaucoup de positif est à retenir !</strong>
+<ul>
+<li><p>Auparavant, nous pensions que les documents que nous pouvons
+trouver dans les sujets officiels étaient compliqués à obtenir.
+<strong>En réalité</strong>, après avoir obtenu la bonne configuration,
+il devient très facile de produire rapidement des documents à l’allure
+propre et soignée.</p></li>
+<li><p>Notre <strong>marge de progrès</strong> est encore grande car ce
+projet n’est qu’une première introduction dans l’écriture de rapports au
+format académique.</p></li>
+<li><p>D’autres <strong>SAé</strong> pourront être écrites dans le même
+thème en excluant toutes les heures de recherche que nous avons dû faire
+pour obtenir ce type de document. C’est un
+<strong>investissement</strong> à prendre mais il est très probable
+qu’il soit rentable dans le futur !</p></li>
+<li><p>Enfin, nos <strong>connaissances</strong> en
+<strong>réseau/installation machine</strong>, le support de ce document,
+ont pu être améliorées là où certaines lacunes pouvaient
+subsister.</p></li>
+</ul></li>
+</ul>
+<p><br />
+</p>
+<p><em>Au cours de ces</em> <em>semaines</em>, ce projet nous aura donc
+<strong>beaucoup</strong> appris sur les , les , mais <em>surtout</em>
+sur une <strong>nouvelle manière de travailler
+académiquement</strong>.</p>
+<p><br />
+</p>
+<hr />
+<hr />
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>https://fr.wikipedia.org/wiki/Processeur_64_bits<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn2"><p>https://fr.wikipedia.org/wiki/Network_address_translation<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>https://en.wikipedia.org/wiki/Optical_disc_image<a
+href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>https://mate-desktop.org/fr/,
+https://www.gnome.org/about<a href="#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>https://fr.wikipedia.org/wiki/Serveur_web<a
+href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>https://wiki.debian.org/fr/SSH<a href="#fnref6"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>https://fr.wikipedia.org/wiki/Proxy<a href="#fnref7"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>https://wiki.debian.org/SystemGroups<a href="#fnref8"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>https://debian-facile.org/doc:systeme:uname<a
+href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn10"><p>https://docs.oracle.com/cd/E26217_01/E35193/html/qs-guest-additions.html<a
+href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn11"><p>https://manpages.debian.org/bullseye/manpages-fr/mount.8.fr.html,
+https://www.debian-fr.org/t/mount-et-fstab-pour-les-nuls/22623<a
+href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn12"><p>https://www.debian.org/intro/about.fr.html,https://www.debian.org/doc/manuals/debian-faq/basic-defs.fr.html#pronunciation<a
+href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>https://wiki.debian.org/fr/LTS<a href="#fnref13"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>https://www.debian.org/security/faq.fr.html#lifespan<a
+href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>https://www.debian.org/releases/index.fr.html<a
+href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>https://people.debian.org/~miriam/toy_story/<a
+href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn17"><p>https://wiki.debian.org/fr/DebianBullseye#Architectures<a
+href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn18"><p>https://fr.wikipedia.org/wiki/Historique_des_versions_de_Debian<a
+href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn19"><p>https://www.debian.org/releases/trixie/,https://www.debian.org/releases/index.fr.html,https://wiki.debian.org/DebianForky<a
+href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>https://doc.ubuntu-fr.org/sudoers<a href="#fnref20"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn21"><p>https://www.debian.org/releases/stable/s390x/apbs04.fr.html<a
+href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn22"><p>https://docs.oracle.com/en/virtualization/virtualbox/6.0/admin/viso.html,
+https://en.wikipedia.org/wiki/Universally_unique_identifier<a
+href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn23"><p>https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git<a
+href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn24"><p>https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Les-branches-en-bref,
+https://docs.syntevo.com/SmartGit/Latest/Manual/GitConcepts/CommonTerms<a
+href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn25"><p>https://en.wikipedia.org/wiki/Commit_(version_control)<a
+href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p>https://git-scm.com/docs/gitk<a href="#fnref26"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p>https://git-scm.com/docs/git-gui<a href="#fnref27"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn28"><p>https://www.syntevo.com/smartgit/download/#installation-instructions<a
+href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn29"><p>https://docs.gitea.com/<a href="#fnref29"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30"><p>https://docs.gitea.com/installation/comparison<a
+href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn31"><p>https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo<a
+href="#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn32"><p>https://docs.gitea.com/,
+https://blog.gitea.com/welcome-to-gitea/,
+https://news.ycombinator.com/item?id=13452025<a href="#fnref32"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn33"><p>https://cran.r-project.org/web/packages/gpg/vignettes/intro.html<a
+href="#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn34"><p>https://docs.gitea.com/usage/permissions<a
+href="#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn35"><p>https://docs.github.com/fr/actions/about-github-actions/about-continuous-integration-with-github-actions,
+https://about.gitlab.com/fr-fr/topics/continuous-delivery/
+https://learn.microsoft.com/fr-fr/devops/deliver/what-is-continuous-delivery<a
+href="#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>                    
+                </div>
+            </div>
+            <script src="https://vjs.zencdn.net/5.4.4/video.js"></script>
+        </div>
+    </body>
+</html>
