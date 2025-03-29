@@ -4,7 +4,9 @@
 
 - **Réalisé par** : 
   - ZAVADSKIYI Mark (mark.zavadskiyi.etu@univ-lille.fr), ZHENG Angèl (angel.zheng.etu@univ-lille.fr), LAVOGIEZ Baptiste (baptiste.lavogiez.etu@univ-lille.fr), DEMARET Thibaut (thibaut.demaret.etu@univ-lille.fr)
-  - Page GitHub : [blavogiez](https://github.com/blavogiez) 
+    
+  - Page GitHub : [blavogiez](https://github.com/blavogiez)
+    
   - Crédits : Utilisation du template *pandoc latex template* (redistribution autorisée, cf fichier LICENSE) [Page Github Template](https://github.com/Wandmalfarbe/pandoc-latex-template/tree/master)
 
 ## **Présentation**
